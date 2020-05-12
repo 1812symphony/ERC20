@@ -1,0 +1,24 @@
+{
+  "name": "hamburger_etherproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "metamask.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "latest",
+    "cors-anywhere": "^0.4.3",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-metamask-login-button": "^1.0.18",
+    "web3": "^1.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christopher Xu",
+  "license": "ISC"
+}
