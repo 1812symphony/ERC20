@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e61abca0-f7bc-4641-a2f1-510bef4dea0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metamask.js" beforeDir="false" afterPath="$PROJECT_DIR$/metamask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +67,8 @@
       <workItem from="1589059844111" duration="14685000" />
       <workItem from="1589298203973" duration="10789000" />
       <workItem from="1589379735627" duration="336000" />
-      <workItem from="1589388357903" duration="911000" />
+      <workItem from="1589388357903" duration="1929000" />
+      <workItem from="1589431982234" duration="7480000" />
     </task>
     <servers />
   </component>
