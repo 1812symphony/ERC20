@@ -3,8 +3,8 @@ const axios = require("axios");
 const path = require("path");
 
 var bodyParser = require("body-parser");
-
-var apiAddress = "http://13.56.163.182:8000/transfer-token";
+userAdress = "";
+apiAddress = "http://13.56.163.182:8000/transfer-token";
 const app = express();
 
 app.use("/", function (req, res, next) {
@@ -23,16 +23,25 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post("/transfer-token", (req, res) => {
-    const { userAddress } = req.body; // we received this from the client
+    const {userAddress} = req.body; // we received this from the client
     console.log("got address", userAddress);
-    return res.status(200).end();
+    res.status(200).end();
     axios.post(apiAddress, {
-        // we request that the adventure API send a token to this user
-        to: userAddress,
-        amount: 10,
         ticker: "HAMBURGER",
-        hookUrl: "http://localhost:5000", // give any value since we're localhost and not live, just dont give empty value
-    });
+        amount: 10,
+        to: userAddress,
+        hookUrl: "done",
+    })
+        .then(function (response) {
+            console.log(response);
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
 });
+
+
+
+
 
 app.listen(5000);
