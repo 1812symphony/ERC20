@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{axios, babel, react, react-dom, react-dom.development, react.development, web3}" />
-  </component>
-</project>
